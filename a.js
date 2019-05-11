@@ -4,7 +4,7 @@ const div1 = document.getElementById('div1')
 
 const changeColor = () =>{
     console.dir(div1);
-    div1.innerHTML = "よくも押したなー。"
+    div1.innerHTML = "<p>よくも押したなー。</p>"
 }
 button.addEventListener('click',()=>{
     changeColor()
